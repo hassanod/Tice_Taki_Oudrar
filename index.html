@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="None" />
+      <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Apprendre Python</title>
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Langages de programmation";
+        var mkdocs_page_input_path = "index.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <script src="js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="." class="icon icon-home"> Apprendre Python
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="./search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href=".">Langages de programmation</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#prerequis">Prérequis</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#initiation-python">Initiation python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#variables-constantes-affectation-en-python">Variables, constantes, affectation en Python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types-de-donnees-en-python">Types de données en python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#instructions-de-base-lecture-ecriture-en-python">Instructions de base (lecture, écriture) en python:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#structure-de-controle-de-base-en-python">Structure de contrôle de base en python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#exercice-de-python">Exercice de python</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#evaluation">Evaluation :</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href=".">Apprendre Python</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="." class="icon icon-home" alt="Docs"></a> &raquo;</li>
+      <li>Langages de programmation</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="langages-de-programmation">Langages de programmation</h1>
+<p>ce site est sous forme d'une documentation  du Chapitre 4 : Langages de programmation  est crée par Zakaria taki &amp; Hassan oudrar</p>
+<h2 id="prerequis">Prérequis</h2>
+<ul>
+<li>Notions d’algorithmes</li>
+<li>Constantes, variables et types </li>
+<li>Instructions de base (lecture, écriture, affectation) </li>
+<li>Structure de contrôle de base </li>
+</ul>
+<h2 id="initiation-python">Initiation python</h2>
+<p>Python est un langage de programmation multiplateforme, ce qui signifie qu'il peut s'exécuter sur plusieurs plates-formes telles que Windows, macOS, Linux, et a même été porté sur les machines virtuelles Java et .NET. Il est gratuit et open-source.</p>
+<p>Même si la plupart des Linux et Mac d'aujourd'hui ont Python pré-installé, la version peut être obsolète. C'est donc toujours une bonne idée d'installer la version la plus récente.</p>
+<p>Comment Installer python?</p>
+<p>Le moyen le plus simple d'exécuter Python consiste à utiliser vscode IDE pour l'edition de votre code maitenant vous devez installez python depuis le site officiel localement.</p>
+<p>vscode est fourni avec la dernière version de Python. Vous n'avez donc pas besoin d'installer Python séparément.</p>
+<p>Suivez les étapes suivantes pour exécuter Python sur votre ordinateur :</p>
+<ul>
+<li>Télécharger vscode</li>
+<li>Exécutez le programme d'installation pour installer vscode sur votre ordinateur.</li>
+<li>Allez dans : Fichier &gt; Nouveau. Enregistrez ensuite le fichier avec l'extension .py. Par exemple, bonjour.py, exemple.py, etc.</li>
+<li>Vous pouvez donner n'importe quel nom au fichier. Cependant, le nom du fichier doit se terminer par .py</li>
+</ul>
+<p>aprés vous allez chercher une extention qui s'appelle python crée par microsoft et l'installé
+Votre premier programme Python
+Maintenant que Python est opérationnel, nous pouvons écrire notre premier programme Python.</p>
+<p>Créons un programme très simple appelé Hello World. Un "Bonjour, le monde!" est un programme simple qui affiche Hello, World! sur l'écran. Comme il s'agit d'un programme très simple, il est souvent utilisé pour présenter un nouveau langage de programmation aux débutants.</p>
+<p>Tapez le code suivant dans n'importe quel éditeur de texte ou un IDE et enregistrez-le sous hello_world.py</p>
+<pre><code class="language-python">print(&quot;hello world&quot;)
+</code></pre>
+<h2 id="variables-constantes-affectation-en-python">Variables, constantes, affectation en Python</h2>
+<p>En programmation, une variable est un conteneur (zone de stockage) pour contenir des données. Par exemple :</p>
+<pre><code class="language-python">nombre = 10
+</code></pre>
+<p>Ici, nombre est la variable stockant la valeur 10.
+Comme nous pouvons le voir dans l'exemple ci-dessus, nous utilisons l'opérateur d'affectation = pour affecter une valeur à une variable.</p>
+<pre><code class="language-python"># affecter zakaria taki à la variable zakaria taki
+nom = 'zakaria taki'
+
+print(nom)
+
+# sortie: zakaria taki
+
+</code></pre>
+<p>changer la valeur d'une variable </p>
+<pre><code class="language-python"># affecter zakaria taki à la variable zakaria taki
+nom = 'zakaria taki'
+
+print(nom)
+# sortie: zakaria taki
+
+nom = 'hassan oudrar'
+print(nom)
+# sortie: hassan oudrar
+
+</code></pre>
+<p>les constants de python 
+Une constante est un type spécial de variable dont la valeur ne peut pas être modifiée.</p>
+<p>En Python, les constantes sont généralement déclarées et affectées dans un module (un nouveau fichier contenant des variables, des fonctions, etc. qui est importé dans le fichier principal).</p>
+<p>Voyons comment nous déclarons des constantes dans un fichier séparé et les utilisons dans le fichier principal,</p>
+<p>Créez un constant.py :</p>
+<pre><code class="language-python"># declare constants 
+PI = 3.14
+GRAVITY = 9.8
+</code></pre>
+<p>Créez un main.py :</p>
+<pre><code class="language-python"># import constant file we created above
+import constant
+
+print(constant.PI) # prints 3.14
+print(constant.GRAVITY) # prints 9.8
+</code></pre>
+<p>Dans l'exemple ci-dessus, nous avons créé le fichier de module constant.py. Ensuite, nous avons attribué la valeur constante à PI et GRAVITY.</p>
+<p>Après cela, nous créons le fichier main.py et importons le module constant. Enfin, nous avons imprimé la valeur constante.</p>
+<h2 id="types-de-donnees-en-python">Types de données en python</h2>
+<p>Dans ce didacticiel, vous découvrirez différents types de données que nous pouvons utiliser en Python à l'aide d'exemples.</p>
+<p>En programmation informatique, les types de données spécifient le type de données pouvant être stockées dans une variable. Par exemple:</p>
+<pre><code class="language-python">num = 24
+</code></pre>
+<p>Ici, 24 (un entier) est affecté à la variable num. Ainsi, le type de données de nombre est de la classe int.
+voila un tableau qui decrit les différents types de données :
+<img alt="Screenshot" src="img/type.jpg" /></p>
+<h2 id="instructions-de-base-lecture-ecriture-en-python">Instructions de base (lecture, écriture) en python:</h2>
+<p>la sortie en python::</p>
+<p>En Python, nous pouvons simplement utiliser la fonction print() pour imprimer la sortie. Par exemple:</p>
+<pre><code class="language-python">print('python est trés fort')
+
+# Sortie: python est trés fort
+</code></pre>
+<p>Ici, la fonction print() affiche la chaîne entre guillemets simples.
+Syntaxe de print()
+Dans le code ci-dessus, la fonction print() prend un seul paramètre.
+Cependant, la syntaxe réelle de la fonction d'impression accepte 5 paramètres</p>
+<p>l'entrée en python::</p>
+<pre><code class="language-python"># on utilise la fonction input pour prendre l'age de l'utilisateur:
+num = input('quel est ton age ? : ')
+
+print('ton age est :', num)
+# Sortie: 10
+
+print('le type de num est :', type(num))
+
+
+# Sortie: int
+</code></pre>
+<p>Dans l'exemple ci-dessus, nous avons utilisé la fonction input () pour prendre l'entrée de l'utilisateur et stocké l'entrée de l'utilisateur dans la variable num.</p>
+<p>Il est important de noter que la valeur saisie 10 est une chaîne et non un nombre. Ainsi, type(num) renvoie <class 'str'>.</p>
+<p>Pour convertir l'entrée de l'utilisateur en un nombre, nous pouvons utiliser les fonctions int() ou float() comme :</p>
+<h2 id="structure-de-controle-de-base-en-python">Structure de contrôle de base en python</h2>
+<p>En programmation informatique, nous utilisons l'instruction if pour exécuter un code de bloc uniquement lorsqu'une certaine condition est remplie.</p>
+<p>Par exemple, attribuer des notes (A, B, C) en fonction des notes obtenues par un élève.</p>
+<ul>
+<li>si le pourcentage est supérieur à 90, attribuez la note A</li>
+<li>si le pourcentage est supérieur à 75, attribuez la note B</li>
+<li>si le pourcentage est supérieur à 65, attribuez la note C</li>
+</ul>
+<p>En Python, on va voir ensemble deux type de conditions : </p>
+<ul>
+<li>if déclaration</li>
+<li>instruction if...else</li>
+</ul>
+<p>The syntax of if statement in Python is:
+1. Python si instruction
+La syntaxe de l'instruction if en Python est :</p>
+<pre><code class="language-python">if condition:
+    # ici ton logique 
+</code></pre>
+<p>L'instruction if évalue la condition.</p>
+<p>Si la condition est évaluée à True, le code à l'intérieur du corps de if est exécuté.
+Si la condition est évaluée à False, le code à l'intérieur du corps de if est ignoré.</p>
+<p><img alt="Screenshot" src="img/if.jpg" />
+Exemple 1 : instruction Python if</p>
+<pre><code class="language-python">number = 10
+
+# on teste si le nombre est superier a 0
+if number &gt; 0:
+    print('le nombre est positive')
+print ('facile')
+
+#sortie : le nombre est positive facile
+
+</code></pre>
+<p>Dans l'exemple ci-dessus, nous avons créé une variable nommée number. Remarquez la condition de test,</p>
+<pre><code class="language-python">number &gt; 0:
+</code></pre>
+<p>Ici, étant donné que le nombre est supérieur à 0, la condition évalue True.
+Si nous changeons la valeur de la variable en un entier négatif. Disons -5.</p>
+<pre><code class="language-python">number = -5
+</code></pre>
+<p>Maintenant, lorsque nous exécutons le programme, la sortie sera :</p>
+<pre><code class="language-python">#sortie : facile
+</code></pre>
+<p>Cela est dû au fait que la valeur de nombre est inférieure à 0. Par conséquent, la condition prend la valeur False. Et, le corps du bloc if est ignoré.</p>
+<p>2-instruction if...else</p>
+<p>Une instruction if peut avoir une clause else facultative.
+La syntaxe de l'instruction if...else est :</p>
+<pre><code class="language-python">if condition:
+    # bloc d'instruction si la condition est vraie
+
+else:
+    # bloc d'instruction si la condition est fausse
+
+</code></pre>
+<p>L'instruction if...else évalue la condition donnée :</p>
+<p>Si la condition est évaluée à True,</p>
+<p>le code à l'intérieur si est exécuté
+le code à l'intérieur d'autre est ignoré
+Si la condition est évaluée à Faux,</p>
+<p>le code à l'intérieur d'autre est exécuté
+le code à l'intérieur si est ignoré</p>
+<p>EXEMPLE:</p>
+<pre><code class="language-python">number = 10
+
+if number &gt; 0:
+    print('nombre Positive')
+
+else:
+    print('Negative ')
+
+print('cette fonction est toujours executée')
+
+</code></pre>
+<p>ce programme nous sortira 'nombre positive' si number est superieur à 0
+sinon il sortira negative dans l'autre cas et la derniere instruction est toujours executée.
+car il est en dehors du bloc if en respecant la notion de L'indentation</p>
+<p>L'indentation fait référence aux espaces au début d'une ligne de code.</p>
+<p>Alors que dans d'autres langages de programmation, l'indentation dans le code sert uniquement à la lisibilité, l'indentation dans Python est très importante.
+Python utilise l'indentation pour indiquer un bloc de code.</p>
+<h2 id="exercice-de-python">Exercice de python</h2>
+<p>Exercice 1: l'age:
+Écrire un programme en Python qui de demande à l'utilisateur son age et l'afficher en ecran</p>
+<hr />
+<p>Exercice 2: calcul de calories:
+Écrire un programme en Python qui calcule combien de calories qui correspond à un poids , demander
+à l'utilisateur son poids</p>
+<hr />
+<p>Exercice 3: le carré d'un nombre:
+Écrire un programme en Python qui calcule le carré d'un nombre</p>
+<hr />
+<p>Exercice 4: la surface d'un triangle:
+Écrire un programme en Python qui calcule la surface d'un triangle</p>
+<hr />
+<p>Exercice 4: la mention de l'élève:
+Écrire un programme en Python qui renvoie le mention de l'élève selon sa note </p>
+<ul>
+<li>si 10 &lt; note &lt; 12 --&gt; passable</li>
+<li>si 12 &lt; note &lt; 14 --&gt; assez bien</li>
+<li>si 14 &lt; note &lt; 16 --&gt; bien</li>
+<li>si 16 &lt; note &lt; 20 --&gt; T.bien</li>
+</ul>
+<h2 id="evaluation">Evaluation :</h2>
+<p><a href="{{ https://docs.google.com/forms/d/e/1FAIpQLSew1EfIdZ0kDUD4nWtrDXgpeNO0dtbm1d87pZ6ez1s6_LEUYA/viewform?usp=sf_link}}">{{ Evaluation de python en google docs :}}</a></p>
+              
+            </div>
+          </div><footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+    
+  </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme_extra.js" defer></script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.4.2
+Build Date UTC : 2023-02-13 11:23:43.696800+00:00
+-->
